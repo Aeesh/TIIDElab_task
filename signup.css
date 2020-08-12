@@ -1,0 +1,58 @@
+body{
+	background-color: salmon;
+}
+.signupContainer{
+	display: flex;
+	background-color: oldlace;
+	padding: 5px;
+	border-radius: 10px;
+	height: 60%;
+	width: 70%;
+	margin: 100px auto;
+}
+.formContainer, .instruction{
+	width: 50%;
+}
+
+.instruction img{
+	max-width: 100%;
+}
+@media screen and (max-width: 800px){
+	.signupContainer{
+		display: flex;
+		flex-direction: column;
+	}
+	.formContainer, .instruction{
+		width: 100%;
+	}
+	
+}
+input{
+	width: 80%;
+	padding: 10px;
+	margin: 5px 20px;
+	border-radius: 10px;
+}
+input:focus{
+	outline: none;
+	background-color: tan;
+	color: seashell;
+}
+.submit{
+	background-color:coral;
+	width: 85%;
+	color: snow;
+	font-size: 24px;
+}
+
+@media screen and (max-width: 800px){
+	.submit{
+		width: 87%;
+	}
+}
+
+h3{
+	color: coral;
+	margin: 15px;
+	font-size: 32px;
+}
